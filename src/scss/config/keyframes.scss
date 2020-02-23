@@ -1,0 +1,27 @@
+@keyframes move-down {
+  from {
+    transform: translateY(-120px);
+  }
+
+  75% {
+    transform: translateY(430px);
+  }
+
+  to {
+    transform: translateY(400px);
+  }
+}
+
+@keyframes move-up {
+  from {
+    transform: translateY(120px);
+  }
+
+  75% {
+    transform: translateY(-430px);
+  }
+
+  to {
+    transform: translateY(-400px);
+  }
+}

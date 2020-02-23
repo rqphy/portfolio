@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:900");
+
+$background-color: #000000;
+$primary-color: #02684c;
+$elem-background: #131314;
+$titles: #f5f5f5;
+
+body {
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+}
