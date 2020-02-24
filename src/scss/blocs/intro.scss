@@ -13,11 +13,11 @@
     justify-content: center;
 
     &:nth-child(2n) {
-      animation: move-down 3s ease-out forwards;
+      animation: move-down 5s ease-in-out forwards;
     }
 
     &:nth-child(2n + 1) {
-      animation: move-up 3s ease-out forwards;
+      animation: move-up 5s ease-in-out forwards;
     }
   }
 
@@ -25,12 +25,16 @@
     font-family: "lato", sans-serif;
     font-size: 100px;
     text-transform: uppercase;
-    color: #131314;
+    color: $elem-background;
     max-width: 100px;
     height: 100px;
 
     &--title {
-      color: #02684c;
+      color: $primary-color;
     }
+  }
+
+  &--visible {
+    display: none;
   }
 }
