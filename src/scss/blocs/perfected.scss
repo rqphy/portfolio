@@ -1,0 +1,23 @@
+.project {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5% 10%;
+
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  &__illustration {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    display: none;
+  }
+}
