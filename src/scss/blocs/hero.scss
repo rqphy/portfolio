@@ -18,6 +18,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 20vh;
+
+    @include large {
+      font-size: 100px;
+    }
   }
 
   &__img {
