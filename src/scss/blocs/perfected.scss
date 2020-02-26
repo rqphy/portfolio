@@ -5,6 +5,11 @@
   justify-content: flex-start;
   align-items: center;
   padding: 5% 10%;
+  border: 1px solid yellow;
+
+  @include medium {
+    padding: 3% 5%;
+  }
 
   &:nth-child(2n) {
     flex-direction: row-reverse;
@@ -15,9 +20,56 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+
+    @include medium {
+      width: 55%;
+      height: 100%;
+    }
   }
 
   &__content {
     display: none;
+    color: $titles;
+    font-family: "lato", sans-serif;
+    height: 100%;
+    width: 45%;
+    border: 1px solid green;
+
+    @include medium {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 5%;
+    }
+
+    @include large {
+      padding: 2%;
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+
+    @include large {
+      font-size: 48px;
+    }
+  }
+
+  &__description {
+    line-height: 150%;
+    font-size: 18px;
+
+    @include large {
+      font-size: 24px;
+      border: 1px solid blue;
+    }
+  }
+
+  &__button {
+    text-decoration: none;
+    color: $titles;
+    font-weight: 500;
+    font-size: 15px;
   }
 }

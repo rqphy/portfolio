@@ -44,16 +44,55 @@
   }
 }
 
-@keyframes move-left {
-  50% {
+// @keyframes move-left {
+//   50% {
+//     transform: scale(1);
+//   }
+
+//   70% {
+//     transform: scale(0);
+//   }
+
+//   100% {
+//     transform: scale(0);
+//   }
+// }
+
+@keyframes cursorAnim {
+  from {
     transform: scale(1);
   }
-
-  70% {
-    transform: scale(0);
+  to {
+    transform: scale(0.7);
   }
+}
 
+@keyframes cursorAnim2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.4);
+  }
+}
+
+@keyframes cursorAnim4 {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes cursorAnim3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
   100% {
-    transform: scale(0);
+    transform: scale(1);
+    opacity: 0;
   }
 }

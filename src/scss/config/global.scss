@@ -3,7 +3,7 @@
   scroll-behavior: smooth;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Lato:900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
 
 $background-color: #000000;
 $primary-color: #02684c;
@@ -16,4 +16,5 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  // cursor: none;
 }
