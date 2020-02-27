@@ -90,18 +90,18 @@
 }
 @keyframes move-down-large {
   0% {
-    transform: translateY(-120px);
+    transform: translateY(-400px);
   }
 
   35% {
-    transform: translateY(430px);
+    transform: translateY(50px);
   }
   45% {
-    transform: translateY(400px);
+    transform: translateY(0px);
   }
 
   65% {
-    transform: translateY(400px);
+    transform: translateY(0px);
     opacity: 1;
   }
 
@@ -113,18 +113,18 @@
 
 @keyframes move-up-large {
   0% {
-    transform: translateY(120px);
+    transform: translateY(400px);
   }
 
   35% {
-    transform: translateY(-430px);
+    transform: translateY(50px);
   }
   45% {
-    transform: translateY(-400px);
+    transform: translateY(100px);
   }
 
   65% {
-    transform: translateY(-400px);
+    transform: translateY(100px);
     opacity: 1;
   }
 
