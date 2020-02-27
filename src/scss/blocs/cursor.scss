@@ -1,42 +1,46 @@
 .cursor {
-  width: 30px;
-  height: 30px;
-  border: solid 3px $primary-color;
-  border-radius: 50%;
-  position: absolute;
-  transition-duration: 50ms;
-  transition-timing-function: ease-out;
-  animation: cursorAnim 0.5s infinite alternate;
-  pointer-events: none;
+  display: none;
 
-  &::before {
-    content: "";
+  @include large {
     width: 30px;
     height: 30px;
-    position: absolute;
-    border: 3px solid $titles;
+    border: solid 3px $primary-color;
     border-radius: 50%;
-    opacity: 0.5;
-    top: -6px;
-    left: -6px;
-    animation: cursorAnim4 0.8s infinite alternate;
+    position: absolute;
+    transition-duration: 50ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim 0.5s infinite alternate;
+    pointer-events: none;
+
+    &::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      border: 3px solid $titles;
+      border-radius: 50%;
+      opacity: 0.5;
+      top: -6px;
+      left: -6px;
+      animation: cursorAnim4 0.8s infinite alternate;
+    }
+
+    &::after {
+      content: "";
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      border: 8px solid $titles;
+      border-radius: 50%;
+      opacity: 0.5;
+      top: -11px;
+      left: -11px;
+      animation: cursorAnim2 0.5s infinite alternate;
+    }
   }
 
-  &::after {
-    content: "";
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    border: 8px solid $titles;
-    border-radius: 50%;
-    opacity: 0.5;
-    top: -11px;
-    left: -11px;
-    animation: cursorAnim2 0.5s infinite alternate;
+  .expand {
+    animation: cursorAnim3 0.5s forwards;
+    border: 3px solid $primary-color;
   }
-}
-
-.expand {
-  animation: cursorAnim3 0.5s forwards;
-  border: 3px solid $primary-color;
 }
