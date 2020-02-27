@@ -16,22 +16,22 @@
       animation: move-down-small 5s ease-in-out forwards;
 
       @include medium {
-        animation: move-down-medium 5s ease-in-out forwards;
+        animation: move-down-medium 4s ease-in-out forwards;
       }
 
       @include large {
-        animation: move-down-large 5s ease-in-out forwards;
+        animation: move-down-large 4s ease-in-out forwards;
       }
     }
 
     &:nth-child(2n + 1) {
       animation: move-up-small 5s ease-in-out forwards;
       @include medium {
-        animation: move-up-medium 5s ease-in-out forwards;
+        animation: move-up-medium 4s ease-in-out forwards;
       }
 
       @include large {
-        animation: move-up-large 5s ease-in-out forwards;
+        animation: move-up-large 4s ease-in-out forwards;
       }
     }
   }
