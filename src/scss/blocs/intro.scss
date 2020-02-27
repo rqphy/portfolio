@@ -20,7 +20,7 @@
       }
 
       @include large {
-        animation: move-down-large 4s ease-in-out forwards;
+        animation: move-down-large 4.5s ease-in-out forwards;
       }
     }
 
@@ -31,7 +31,7 @@
       }
 
       @include large {
-        animation: move-up-large 4s ease-in-out forwards;
+        animation: move-up-large 4.5s ease-in-out forwards;
       }
     }
   }
