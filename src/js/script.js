@@ -2,7 +2,9 @@
 
 setTimeout(() => {
   let intro = document.querySelector(".container");
+  let content = document.querySelector(".main");
   intro.classList.add("container--visible");
+  content.classList.add("main--visible");
 }, 4500);
 
 //cursor

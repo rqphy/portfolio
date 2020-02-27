@@ -21,6 +21,11 @@ body {
   max-width: 100%;
 }
 
-main {
+.main {
   max-width: 1920px;
+  display: none;
+
+  &--visible {
+    display: block;
+  }
 }
