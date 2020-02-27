@@ -13,11 +13,26 @@
     justify-content: center;
 
     &:nth-child(2n) {
-      animation: move-down 5s ease-in-out forwards;
+      animation: move-down-small 5s ease-in-out forwards;
+
+      @include medium {
+        animation: move-down-medium 5s ease-in-out forwards;
+      }
+
+      @include large {
+        animation: move-down-large 5s ease-in-out forwards;
+      }
     }
 
     &:nth-child(2n + 1) {
-      animation: move-up 5s ease-in-out forwards;
+      animation: move-up-small 5s ease-in-out forwards;
+      @include medium {
+        animation: move-up-medium 5s ease-in-out forwards;
+      }
+
+      @include large {
+        animation: move-up-large 5s ease-in-out forwards;
+      }
     }
   }
 
@@ -28,6 +43,18 @@
     color: $elem-background;
     max-width: 30px;
     height: 30px;
+
+    @include medium {
+      font-size: 60px;
+      height: 60px;
+      max-width: 60px;
+    }
+
+    @include large {
+      font-size: 100px;
+      height: 100px;
+      max-width: 100px;
+    }
 
     &--title {
       color: $primary-color;
