@@ -2,6 +2,7 @@
   display: none;
 
   @include large {
+    display: block;
     width: 30px;
     height: 30px;
     border: solid 3px $primary-color;
