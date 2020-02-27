@@ -9,14 +9,12 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  border: 1px solid red;
 
   &__top {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 100%;
-    // border: 1px solid green;
+    max-width: 1920px;
   }
 
   &__bottom {
@@ -33,6 +31,11 @@
     font-size: 12px;
     font-family: "lato", sans-serif;
     font-weight: 700;
+    filter: drop-shadow(4px 4px 4px #000000);
+
+    @include large {
+      font-size: 15px;
+    }
 
     &--modifier {
       padding-right: 20px;

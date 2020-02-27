@@ -10,6 +10,10 @@
     padding: 3% 5%;
   }
 
+  @include large {
+    padding: 3% 0;
+  }
+
   &:nth-child(2n) {
     flex-direction: row-reverse;
   }
@@ -41,7 +45,8 @@
     }
 
     @include large {
-      padding: 2%;
+      padding: 2% 6%;
+      width: 40%;
     }
   }
 
@@ -68,5 +73,6 @@
     color: $titles;
     font-weight: 500;
     font-size: 15px;
+    width: fit-content;
   }
 }
