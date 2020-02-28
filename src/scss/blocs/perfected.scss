@@ -36,7 +36,6 @@
 
   &__content {
     display: none;
-    color: $titles;
     font-family: "lato", sans-serif;
     height: 100%;
     width: 45%;
@@ -57,6 +56,7 @@
   &__title {
     font-size: 32px;
     font-weight: 700;
+    color: $titles;
 
     @include large {
       font-size: 48px;
@@ -64,6 +64,7 @@
   }
 
   &__description {
+    color: $text;
     line-height: 150%;
     font-size: 18px;
 
