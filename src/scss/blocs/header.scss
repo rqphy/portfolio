@@ -52,6 +52,10 @@
 
   &__invisible {
     opacity: 0;
+    font-size: 12px;
+    @include large {
+      font-size: 15px;
+    }
   }
 
   &__cta {
@@ -59,7 +63,6 @@
     width: fit-content;
     height: 30px;
     overflow: hidden;
-    margin-right: 20px;
 
     &:hover {
       .header__title {
@@ -68,6 +71,9 @@
           transform: translateY(0);
         }
       }
+    }
+    &--modifier {
+      margin-right: 20px;
     }
   }
 }
