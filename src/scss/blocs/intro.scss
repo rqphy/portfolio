@@ -37,13 +37,14 @@
   }
 
   &__letter {
-    font-family: "lato", sans-serif;
+    font-family: "Oxanium";
     font-size: 30px;
     text-transform: uppercase;
     color: $text;
     opacity: 0.1;
     max-width: 30px;
     height: 30px;
+    font-weight: 700;
 
     @include medium {
       font-size: 60px;
