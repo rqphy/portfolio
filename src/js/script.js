@@ -26,3 +26,13 @@ document.addEventListener("click", () => {
     cursor.classList.remove("expand");
   }, 500);
 });
+
+let projects = document.querySelectorAll(".project");
+
+for (let i = 0; i < projects.length; i++) {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY + window.innerHeight / 2 >= projects[i].offsetTop) {
+      projects[i].classList.add("project--reached");
+    }
+  });
+}

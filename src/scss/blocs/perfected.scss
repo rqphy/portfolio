@@ -5,7 +5,15 @@
   justify-content: center;
   align-items: center;
   padding: 5% 10%;
-  transform: skewY(4deg);
+  transition: transform 1s;
+
+  &:nth-child(2n + 1) {
+    transform: translateX(-150%);
+    &.project--reached {
+      transform: translateX(0);
+      transform: skewY(4deg);
+    }
+  }
 
   @include medium {
     justify-content: flex-start;
@@ -19,9 +27,13 @@
 
   &:nth-child(2n) {
     flex-direction: row-reverse;
-    transform: skewY(-4deg);
-  }
+    transform: translateX(150%);
 
+    &.project--reached {
+      transform: translateX(0);
+      transform: skewY(-4deg);
+    }
+  }
   &__illustration {
     width: 90%;
     height: 70%;
