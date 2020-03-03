@@ -19,12 +19,12 @@
   }
 
   &__bottom {
-    display: none;
+    display: flex;
     bottom: 50px;
     padding-left: 5%;
 
     @include medium {
-      display: flex;
+      // display: flex;
       width: 100%;
     }
   }
