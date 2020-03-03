@@ -7,28 +7,56 @@
   max-height: 1080px;
   width: 100%;
 
+  &__titles {
+    color: $titles;
+    font-family: "Oxanium";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    width: 75%;
+    height: 50%;
+
+    @include medium {
+      height: 60%;
+      padding-top: 12%;
+    }
+
+    @include large {
+      padding-top: 10%;
+    }
+  }
+
+  &__subtitle {
+    color: $titles;
+    font-family: "Oxanium";
+    font-weight: 600;
+    font-size: 18px;
+
+    @include medium {
+      font-size: 24px;
+    }
+
+    @include large {
+      font-size: 32px;
+    }
+  }
   &__title {
     color: $titles;
     font-family: "Oxanium", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15%;
-    letter-spacing: 5px;
-    width: 75%;
+    letter-spacing: 3px;
 
     @include medium {
-      height: 60%;
       font-size: 72px;
-      padding-top: 12%;
+      letter-spacing: 5px;
     }
 
     @include large {
       font-size: 104px;
-      padding-top: 10%;
+      letter-spacing: 7px;
     }
   }
 
