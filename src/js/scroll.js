@@ -16,9 +16,9 @@ window.addEventListener("scroll", () => {
   photo.style.transform = "rotate(" + scrollValue / 15 + "deg)";
   texts.forEach((text, index) => {
     if (index % 2 === 0) {
-      text.style.transform = `translateX(${scrollValue / 10}px)`;
+      text.style.transform = `translateX(${scrollValue / 10 - 100}px)`;
     } else {
-      text.style.transform = `translateX(-${scrollValue / 10}px)`;
+      text.style.transform = `translateX(${-scrollValue / 10 - 70}px)`;
     }
   });
 });
