@@ -1,13 +1,15 @@
 .spitch {
+  border: 3px solid green;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-bottom: 20vh;
 
   &__text {
     color: $titles;
     font-family: sans-serif;
     font-size: 18px;
-    max-width: 50%;
+    max-width: 60%;
     line-height: 27px;
 
     @include medium {
