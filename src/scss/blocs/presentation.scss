@@ -21,7 +21,6 @@
 
   &__lines {
     line-height: 40px;
-    transform: translateX(-10%);
     width: 1000%;
     font-family: "Oxanium";
     font-size: 30px;
@@ -29,6 +28,13 @@
     color: $titles;
     opacity: 0.1;
     font-weight: 700;
+
+    &:nth-child(2n) {
+      transform: translateX(-70px);
+    }
+    &:nth-child(2n + 1) {
+      transform: translateX(-100px);
+    }
 
     @include medium {
       font-size: 50px;
