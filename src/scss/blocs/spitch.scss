@@ -1,15 +1,22 @@
 .spitch {
-  height: 100vh;
-  border: 3px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
 
   &__text {
-    max-width: 600px;
     color: $titles;
     font-family: sans-serif;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 18px;
+    max-width: 50%;
+    line-height: 27px;
+
+    @include medium {
+      font-size: 28px;
+      max-width: 500px;
+      line-height: 42px;
+    }
+    @include large {
+      max-width: 600px;
+    }
   }
 }
