@@ -40,16 +40,20 @@
       transform: skewY(-4deg);
     }
   }
-  &__illustration {
+
+  &__imglink {
     width: 90%;
     height: 70%;
-    object-fit: cover;
-    object-position: center;
-
     @include medium {
       width: 55%;
       height: 100%;
     }
+  }
+  &__illustration {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   &__content {
