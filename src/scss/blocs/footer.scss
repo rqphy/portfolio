@@ -26,7 +26,8 @@
     }
 
     &:hover {
-      color: $primary-color;
+      color: transparent;
+      -webkit-text-stroke: 2px $primary-color;
     }
   }
 
