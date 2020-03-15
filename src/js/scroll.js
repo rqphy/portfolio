@@ -10,6 +10,7 @@ for (let i = 0; i < projects.length; i++) {
 
 const photo = document.querySelector(".presentation__photo");
 const texts = document.querySelectorAll(".presentation__lines");
+const pitch = document.querySelector(".spitch__text");
 
 window.addEventListener("scroll", () => {
   let scrollValue = window.pageYOffset;
@@ -21,4 +22,5 @@ window.addEventListener("scroll", () => {
       text.style.transform = `translateX(${-scrollValue / 10 - 70}px)`;
     }
   });
+  pitch.style.transform = `skewY(${scrollValue / 100}deg)`;
 });
