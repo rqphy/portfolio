@@ -15,7 +15,6 @@
 
   &:nth-child(2n + 1) {
     transform: translateX(-150%);
-    background-color: #101011;
     &.project--reached {
       transform: translateX(0);
       transform: skewY(4deg);
