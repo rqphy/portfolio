@@ -1,0 +1,11 @@
+.contact {
+  color: $titles;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 700;
+  height: 15vh;
+  font-size: 16px;
+
+  @include medium {
+    font-size: 32px;
+  }
+}
