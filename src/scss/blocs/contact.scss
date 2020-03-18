@@ -8,4 +8,7 @@
   @include medium {
     font-size: 32px;
   }
+  &::selection {
+    background: $primary-color;
+  }
 }

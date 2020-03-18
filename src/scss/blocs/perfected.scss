@@ -79,6 +79,9 @@
     font-size: 32px;
     font-weight: 700;
     color: $titles;
+    &::selection {
+      background: $primary-color;
+    }
 
     @include large {
       font-size: 48px;
@@ -89,6 +92,10 @@
     color: $text;
     line-height: 150%;
     font-size: 18px;
+    &::selection {
+      color: $titles;
+      background: $primary-color;
+    }
 
     @include large {
       font-size: 20px;
