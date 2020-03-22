@@ -26,8 +26,8 @@
     }
 
     &:hover {
-      color: transparent;
-      -webkit-text-stroke: 2px $primary-color;
+      color: $primary-color;
+      // -webkit-text-stroke: 2px $primary-color;
     }
   }
 

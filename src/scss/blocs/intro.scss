@@ -45,8 +45,8 @@
     max-width: 30px;
     height: 30px;
     font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke: 3px $titles;
+    color: $titles;
+    // -webkit-text-stroke: 3px $titles;
 
     @include medium {
       font-size: 60px;
