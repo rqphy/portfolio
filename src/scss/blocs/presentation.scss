@@ -14,9 +14,18 @@
   }
 
   &__photo {
-    width: 15%;
-    height: 25%;
-    background-color: red;
+    width: 60%;
+    max-width: 260px;
+
+    @include medium {
+      width: 35%;
+      max-width: 290px;
+    }
+
+    @include large {
+      width: 25%;
+      max-width: 400px;
+    }
   }
 
   &__lines {
