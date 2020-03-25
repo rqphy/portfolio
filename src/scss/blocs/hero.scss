@@ -80,7 +80,7 @@
       animation: background-plus 5s infinite ease-in-out;
 
       @include medium {
-        width: 30%;
+        width: 20%;
       }
 
       @include large {
@@ -96,7 +96,7 @@
       animation: background-minus 6s infinite ease-in-out;
 
       @include medium {
-        width: 20%;
+        width: 15%;
       }
 
       @include large {
@@ -112,7 +112,7 @@
       animation: background-plus 3s infinite ease-in-out;
 
       @include medium {
-        width: 12%;
+        width: 9%;
       }
 
       @include large {
