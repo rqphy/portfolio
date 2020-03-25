@@ -70,11 +70,50 @@
   }
 
   &__img {
-    display: none;
+    position: absolute;
+    z-index: -1;
 
-    // @include medium {
-    //   display: block;
-    // }
+    &--0 {
+      width: 40%;
+      top: 30%;
+      left: 10%;
+
+      @include medium {
+        width: 30%;
+      }
+
+      @include large {
+        width: 20%;
+        top: 20%;
+      }
+    }
+
+    &--1 {
+      width: 25%;
+      top: 60%;
+      left: 60%;
+      @include medium {
+        width: 20%;
+      }
+
+      @include large {
+        width: 15%;
+        top: 80%;
+      }
+    }
+
+    &--2 {
+      width: 15%;
+      top: 20%;
+      left: 65%;
+      @include medium {
+        width: 12%;
+      }
+
+      @include large {
+        left: 75%;
+      }
+    }
   }
 
   &__scroll {
