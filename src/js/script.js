@@ -7,4 +7,4 @@ setTimeout(() => {
   cursor.classList.remove("cursor--visible");
   intro.classList.add("container--visible");
   content.classList.add("main--visible");
-}, 4000);
+}, 5000);

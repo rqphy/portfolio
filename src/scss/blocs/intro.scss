@@ -14,25 +14,25 @@
     justify-content: center;
 
     &:nth-child(2n) {
-      animation: move-down-small 5s ease-in-out forwards;
+      animation: move-down-small 6s ease-in-out forwards;
 
       @include medium {
-        animation: move-down-medium 4s ease-in-out forwards;
+        animation: move-down-medium 5s ease-in-out forwards;
       }
 
       @include large {
-        animation: move-down-large 4.5s ease-in-out forwards;
+        animation: move-down-large 5.5s ease-in-out forwards;
       }
     }
 
     &:nth-child(2n + 1) {
-      animation: move-up-small 5s ease-in-out forwards;
+      animation: move-up-small 6s ease-in-out forwards;
       @include medium {
-        animation: move-up-medium 4s ease-in-out forwards;
+        animation: move-up-medium 5s ease-in-out forwards;
       }
 
       @include large {
-        animation: move-up-large 4.5s ease-in-out forwards;
+        animation: move-up-large 5.5s ease-in-out forwards;
       }
     }
   }
@@ -41,11 +41,11 @@
     font-family: "Oxanium";
     font-size: 30px;
     text-transform: uppercase;
-    opacity: 0.1;
+    opacity: 0.3;
     max-width: 30px;
     height: 30px;
     font-weight: 700;
-    color: $titles;
+    color: #2f2f31;
     // -webkit-text-stroke: 3px $titles;
 
     @include medium {
