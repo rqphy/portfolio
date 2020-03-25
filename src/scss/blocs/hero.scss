@@ -77,6 +77,7 @@
       width: 40%;
       top: 30%;
       left: 10%;
+      animation: background-plus 5s infinite ease-in-out;
 
       @include medium {
         width: 30%;
@@ -92,13 +93,15 @@
       width: 25%;
       top: 60%;
       left: 60%;
+      animation: background-minus 6s infinite ease-in-out;
+
       @include medium {
         width: 20%;
       }
 
       @include large {
         width: 15%;
-        top: 80%;
+        top: 65%;
       }
     }
 
@@ -106,6 +109,8 @@
       width: 15%;
       top: 20%;
       left: 65%;
+      animation: background-plus 3s infinite ease-in-out;
+
       @include medium {
         width: 12%;
       }

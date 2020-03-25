@@ -191,3 +191,30 @@
     transform: translateY($base * 8) scale(0.5);
   }
 }
+
+@keyframes background-plus {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(5%, 5%);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes background-minus {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(-5%, 5%);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
