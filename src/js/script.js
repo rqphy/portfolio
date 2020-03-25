@@ -1,5 +1,3 @@
-//intro
-
 setTimeout(() => {
   let intro = document.querySelector(".container");
   let content = document.querySelector(".main");
