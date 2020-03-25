@@ -74,45 +74,45 @@
     z-index: -1;
 
     &--0 {
-      width: 40%;
+      height: 50%;
       top: 30%;
       left: 10%;
       animation: background-plus 5s infinite ease-in-out;
 
       @include medium {
-        width: 20%;
+        // height: 50%;
       }
 
       @include large {
-        width: 20%;
+        // height: 40%;
         top: 20%;
       }
     }
 
     &--1 {
-      width: 25%;
+      height: 35%;
       top: 60%;
       left: 60%;
       animation: background-minus 6s infinite ease-in-out;
 
       @include medium {
-        width: 15%;
+        // width: 15%;
       }
 
       @include large {
-        width: 15%;
+        // width: 15%;
         top: 65%;
       }
     }
 
     &--2 {
-      width: 15%;
+      height: 25%;
       top: 20%;
       left: 65%;
       animation: background-plus 3s infinite ease-in-out;
 
       @include medium {
-        width: 9%;
+        // width: 9%;
       }
 
       @include large {
