@@ -12,5 +12,5 @@ window.addEventListener("scroll", () => {
       text.style.transform = `translateX(${-scrollValue / 10 - 70}px)`;
     }
   });
-  pitch.style.transform = `skewX(-${scrollValue / 80}deg)`;
+  pitch.style.transform = `skewX(-${scrollValue / 150}deg)`;
 });
