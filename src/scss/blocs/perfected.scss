@@ -98,6 +98,18 @@
     }
   }
 
+  &__buttons {
+    width: 80%;
+    max-width: 230px;
+    display: flex;
+    justify-content: space-between;
+
+    @include large {
+      width: 60%;
+      max-width: 200px;
+    }
+  }
+
   &__button {
     text-decoration: none;
     font-weight: 700;
@@ -109,6 +121,14 @@
 
     &:hover {
       color: $titles;
+    }
+
+    &--disabled {
+      color: $text;
+
+      &:hover {
+        color: $text;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "portFolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
     "parcel-bundler": "^1.12.4",
     "sass": "^1.25.0"
   },
-  "description": ""
+  "description": "PortFolio in construction.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqphy/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rqphy/portfolio/issues"
+  },
+  "homepage": "https://github.com/rqphy/portfolio#readme"
 }
